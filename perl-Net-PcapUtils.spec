@@ -37,7 +37,7 @@ perlowych przechwytuj±cych pakiety.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
