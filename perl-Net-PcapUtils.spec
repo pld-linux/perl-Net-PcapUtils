@@ -4,8 +4,8 @@
 			# require UID=0
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	PcapUtils
+%define		pdir	Net
+%define		pnam	PcapUtils
 Summary:	Perl Net::PcapUtils module
 Summary(pl):	Modu³ perla Net::PcapUtils
 Name:		perl-Net-PcapUtils
