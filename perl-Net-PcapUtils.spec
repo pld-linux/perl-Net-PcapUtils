@@ -8,7 +8,7 @@
 %define	pnam	PcapUtils
 Summary:	Perl Net::PcapUtils module
 Summary(pl):	Modu³ perla Net::PcapUtils
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-Net-PcapUtils
 Version:	0.01
 Release:	6
 License:	free
