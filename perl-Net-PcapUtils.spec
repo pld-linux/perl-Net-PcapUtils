@@ -1,13 +1,16 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
-%define         pdir Net
-%define         pnam PcapUtils
-
+%define	pdir	Net
+%define	pnam	PcapUtils
 Summary:	Perl Net::PcapUtils module
 Summary(pl):	Modu³ perla Net::PcapUtils
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.01
 Release:	5
-License:	GPL
+License:	free
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	eeba67266dbe155b504df3c2de1d657f
@@ -40,10 +43,13 @@ perlowych przechwytuj±cych pakiety.
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests:%{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} \
+	install DESTDIR=$RPM_BUILD_ROOT
 find $RPM_BUILD_ROOT -name .packlist | xargs -r rm -f
 
 %clean
