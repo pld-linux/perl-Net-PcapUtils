@@ -48,8 +48,8 @@ perlowych przechwytuj±cych pakiety.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} \
-	install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 find $RPM_BUILD_ROOT -name .packlist | xargs -r rm -f
 
 %clean
