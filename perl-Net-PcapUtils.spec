@@ -2,8 +2,8 @@
 %define         pdir Net
 %define         pnam PcapUtils
 
-Summary:	Perl Net-PcapUtils module
-Summary(pl):	Modu³ perla Net-PcapUtils
+Summary:	Perl Net::PcapUtils module
+Summary(pl):	Modu³ perla Net::PcapUtils
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.01
 Release:	4
