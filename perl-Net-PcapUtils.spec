@@ -6,7 +6,7 @@ Summary:	Perl Net::PcapUtils module
 Summary(pl):	Modu³ perla Net::PcapUtils
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.01
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
