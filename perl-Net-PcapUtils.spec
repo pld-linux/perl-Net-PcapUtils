@@ -1,6 +1,7 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_with	tests	# perform "make test"
+			# require UID=0
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
