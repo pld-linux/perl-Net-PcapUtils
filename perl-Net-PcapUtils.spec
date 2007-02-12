@@ -7,7 +7,7 @@
 %define		pdir	Net
 %define		pnam	PcapUtils
 Summary:	Perl Net::PcapUtils module
-Summary(pl):	Modu³ perla Net::PcapUtils
+Summary(pl.UTF-8):   ModuÅ‚ perla Net::PcapUtils
 Name:		perl-Net-PcapUtils
 Version:	0.01
 Release:	6
@@ -29,12 +29,12 @@ parts of using the Net::Pcap library. The idea is to be able to write
 down in the initialisation code. This makes it possible to write very
 compact Perl scripts involving packet capture.
 
-%description -l pl
-Ten modu³ dostarcza trochê kodu by oddaliæ bardziej zawi³e czê¶ci
-u¿ywania biblioteki Net::Pcap. Idea jest taka, by móc pisaæ skrypty
-jednolinijkowe do przechwytywania pakietów bez zakopywania siê w kod
-inicjalizuj±cy. Pozwala to na pisanie bardzo krótkich skryptów
-perlowych przechwytuj±cych pakiety.
+%description -l pl.UTF-8
+Ten moduÅ‚ dostarcza trochÄ™ kodu by oddaliÄ‡ bardziej zawiÅ‚e czÄ™Å›ci
+uÅ¼ywania biblioteki Net::Pcap. Idea jest taka, by mÃ³c pisaÄ‡ skrypty
+jednolinijkowe do przechwytywania pakietÃ³w bez zakopywania siÄ™ w kod
+inicjalizujÄ…cy. Pozwala to na pisanie bardzo krÃ³tkich skryptÃ³w
+perlowych przechwytujÄ…cych pakiety.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
