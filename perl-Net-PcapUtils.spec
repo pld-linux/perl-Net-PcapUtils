@@ -7,7 +7,7 @@
 %define		pdir	Net
 %define		pnam	PcapUtils
 Summary:	Perl Net::PcapUtils module
-Summary(pl.UTF-8):   Moduł perla Net::PcapUtils
+Summary(pl.UTF-8):	Moduł perla Net::PcapUtils
 Name:		perl-Net-PcapUtils
 Version:	0.01
 Release:	6
