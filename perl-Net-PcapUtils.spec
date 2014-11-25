@@ -2,10 +2,10 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test"
 			# require UID=0
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Net
 %define		pnam	PcapUtils
+%include	/usr/lib/rpm/macros.perl
 Summary:	Perl Net::PcapUtils module
 Summary(pl.UTF-8):	Moduł perla Net::PcapUtils
 Name:		perl-Net-PcapUtils
@@ -15,10 +15,11 @@ License:	free
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	eeba67266dbe155b504df3c2de1d657f
-BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Net-PcapUtils/
 BuildRequires:	libpcap-devel
 BuildRequires:	perl-Net-Pcap
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
