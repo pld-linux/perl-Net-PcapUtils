@@ -5,7 +5,6 @@
 
 %define		pdir	Net
 %define		pnam	PcapUtils
-%include	/usr/lib/rpm/macros.perl
 Summary:	Perl Net::PcapUtils module
 Summary(pl.UTF-8):	Moduł perla Net::PcapUtils
 Name:		perl-Net-PcapUtils
