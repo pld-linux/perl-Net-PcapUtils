@@ -9,7 +9,7 @@ Summary:	Perl Net::PcapUtils module
 Summary(pl.UTF-8):	Moduł perla Net::PcapUtils
 Name:		perl-Net-PcapUtils
 Version:	0.01
-Release:	6
+Release:	7
 License:	free
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
